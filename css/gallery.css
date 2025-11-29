@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css?family=Notable);
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #daf1ff
+}
+.topnav {
+overflow: hidden;
+background-color: #8FFFBA;
+display: flex;
+justify-content: center;
+position: sticky;
+top: 0;
+ 
+  ;
+}
+
+.topnav a {
+    color: #561435;
+   padding: 30px 3%;
+  text-decoration: none;
+   font-family: 'Notable';
+  font-size: 28px;
+   display: inline-block;
+ }
+
+.topnav a:hover {
+  color:  #DE5C9D;
+}
+
+.topnav a.active {
+    color: #DE5C9D;
+}
+
+
+.frame {
+  flex: 100%;
+    max-width: 100%;
+    
+  border: 10px solid #57829C;  border-radius: 10%;
+  stroke-width: 100px; 
+  
+}
+
+
+.row {
+  display: flex;
+  
+  
+.column {
+  flex: 50%;
+  max-width: 50%;
+  padding-top: 5%;
+  padding-right: 1%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  
+ 
+}
+.column img {
+  margin-top: 2%;
+  vertical-align: middle;
+  width: 100%;
+  }
+
+.column2 {
+  flex: 100%;
+  max-width: 50%;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-left: 1%;
+ 
+}
+.column2 img {
+  margin-top: 2%;
+  vertical-align: middle;
+  width: 100%;
+  }
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+     padding-top: 0%;
+  padding-right: 5%;
+  padding-bottom: 0%;
+  padding-left: 5%;
+   
+  }
+    .column2 {
+    flex: 100%;
+    max-width: 100%;
+     padding-top: 0%;
+  padding-right: 5%;
+  padding-bottom: 0%;
+  padding-left: 5%;
+    }
+}
+
+ }
+
+
+
+ .bg {  filter: blur(10px);}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:nth-of-type(4)) {display: none;};
+ 
+}
+
+@media screen and (max-width: 600px) {.topnav {
+overflow: hidden;
+background-color: #ECFFF4;
+display: flex;
+justify-content: center;
+position: sticky;
+top: 0;
+ 
+  ;
+}
+  
+
+@media screen and (max-width: 600px) {
+ 
+.frame {
+  flex: 100%;
+    max-width: 100%;
+    
+  border: 10px solid #57829C;  border-radius: 25%;
+  stroke-width: 100px; 
+  
+}
+
+@media screen and (max-width: 600px) {.topnav a {
+    color: #561435;
+   padding: 15px 3%;
+  text-decoration: none;
+   font-family: 'Notable';
+  font-size: 25px;
+   display: inline-block;
+ }
+  
+}
