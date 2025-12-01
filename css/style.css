@@ -1,7 +1,3 @@
-body {
-  font-family: 'Notable';
-  font-size: 72px;
-}
 
 @import url(https://fonts.googleapis.com/css?family=Notable);
 
@@ -17,7 +13,8 @@ display: flex;
 justify-content: center;
 position: sticky;
 top: 0;
-
+ 
+  ;
 }
 
 .topnav a {
@@ -36,6 +33,7 @@ top: 0;
 .topnav a.active {
     color: #DE5C9D;
 }
+
 
 path {
   fill: transparent;
