@@ -51,16 +51,13 @@ top: 0;
   padding-right: 1%;
   padding-bottom: 5%;
   padding-left: 5%;
-  
-
 }
 
 .yt-embed {
   aspect-ratio: 16 / 9;
     flex: 100%;
     max-width: 100%;
-    
-  border: 10px solid #57829C;  border-radius: 5%;
+      border: 10px solid #57829C;  border-radius: 5%;
   stroke-width: 100px; 
   
   }
@@ -77,8 +74,7 @@ top: 0;
     aspect-ratio: 16 / 9;
     flex: 100%;
     max-width: 100%;
-    
-  border: 10px solid #57829C;  border-radius: 5%;
+      border: 10px solid #57829C;  border-radius: 5%;
   stroke-width: 100px; 
   }
 
