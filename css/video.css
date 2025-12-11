@@ -29,54 +29,59 @@ top: 0;
 
 .topnav a.active {
     color: #DE5C9D;
+
+  }
+.frame {
+  flex: 100%;
+    max-width: 100%;
+    
+  border: 10px solid #57829C;  border-radius: 10%;
+  stroke-width: 100px; 
+  
 }
 
-/* (A) GALLERY WRAPPER */
-/* (A1) BIG SCREENS - 3 VIDEOS PER ROW */
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  grid-gap: 10px;
-  max-width: 1200px; /* optional */
-  margin: 0 auto; /* optional */
-}
- 
-/* (A2) SMALL SCREENS - 2 VIDEOS PER ROW */
-@media screen and (max-width: 768px) {
-  .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-}
- 
-/* (B) GALLERY VIDEOS */
-/* (B1) THUMBNAIL VIDEO */
-.gallery video {
-  width: 100%;
-  height: 200px;
-  object-fit: cover; /* fill | contain | cover | scale-down */
-  cursor: pointer;
-}
- 
-/* (B2) FULLSCREEN VIDEO */
-.gallery video.full {
-  position: fixed;
-  top: 0; left: 0; z-index: 999;
-  width: 100vw; height: 100vh;
-  background: #000;
-  object-fit: scale-down;
-}
- 
-/* (C) EXIT FULLSCREEN */
-#vClose {
-  position: fixed; display: none;
-  top: 0; right: 0; z-index: 9999;
-  font-size: 20px; font-weight: 700;
-  padding: 10px 15px;
-  color: #fff;
-  background: #741414;
-  cursor: pointer;
-}
-#vClose.show { display: block; }
+.row {
+  display: flex;
 
+  
+.column {
+  flex: 50%;
+    max-width: 50%;
+  padding-top: 5%;
+  padding-right: 1%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  
 
+}
+
+.yt-embed {
+  aspect-ratio: 16 / 9;
+    flex: 100%;
+    max-width: 100%;
+    
+  border: 10px solid #57829C;  border-radius: 5%;
+  stroke-width: 100px; 
+  
+  }
+.column2 {
+  flex: 50%;
+  aspect-ratio: 16 / 9;
+  max-width: 50%;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-left: 1%;
+ 
+}
+.yt-embed2 {
+  aspect-ratio: 16 / 9;
+  aspect-ratio: 16 / 9;
+    flex: 100%;
+    max-width: 100%;
+    
+  border: 10px solid #57829C;  border-radius: 5%;
+  stroke-width: 100px; 
   }
 
 @media screen and (max-width: 600px) {
@@ -89,17 +94,6 @@ top: 0;
   padding-left: 5%;
    
   }
-    .column2 {
-    flex: 100%;
-    max-width: 100%;
-     padding-top: 0%;
-  padding-right: 5%;
-  padding-bottom: 0%;
-  padding-left: 5%;
-    }
-}
-
- }
 
 
 
@@ -141,4 +135,3 @@ top: 0;
    display: inline-block;
  }
   
-}
