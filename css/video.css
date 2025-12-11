@@ -66,8 +66,7 @@ top: 0;
   }
 .column2 {
   flex: 50%;
-  aspect-ratio: 16 / 9;
-  max-width: 50%;
+    max-width: 50%;
   padding-top: 5%;
   padding-right: 5%;
   padding-bottom: 5%;
@@ -75,8 +74,7 @@ top: 0;
  
 }
 .yt-embed2 {
-  aspect-ratio: 16 / 9;
-  aspect-ratio: 16 / 9;
+    aspect-ratio: 16 / 9;
     flex: 100%;
     max-width: 100%;
     
